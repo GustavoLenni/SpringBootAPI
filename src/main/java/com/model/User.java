@@ -12,7 +12,7 @@ public class User {
     // I set my variable Id is an Id in my database and the
     // generation of value of my ID is auto
     @Id
-    @GeneratedValue(strategy = GenerationType.AUTO)
+    @GeneratedValue(strategy = GenerationType.IDENTITY)
     private Integer id;
     private String name;
     private String email;
